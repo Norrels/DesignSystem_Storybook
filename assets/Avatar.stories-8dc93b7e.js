@@ -1,0 +1,2 @@
+import{A as t}from"./index-15c49ad5.js";import"./index-12a9191d.js";import"./es.object.get-own-property-descriptor-030f8564.js";import"./index-fa792562.js";import"./jsx-runtime-183a9501.js";const p={title:"Data display/Avatar",component:t,args:{src:"https://github.com/Norrels.png"},argTypes:{src:{control:{type:"text"}}}},c={},e={args:{src:void 0}},m=["Primary","WitFallback"];export{c as Primary,e as WitFallback,m as __namedExportsOrder,p as default};
+//# sourceMappingURL=Avatar.stories-8dc93b7e.js.map

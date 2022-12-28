@@ -1,0 +1,2 @@
+import{e as r,B as t}from"./index-15c49ad5.js";import{j as s}from"./jsx-runtime-183a9501.js";import"./index-12a9191d.js";import"./es.object.get-own-property-descriptor-030f8564.js";import"./index-fa792562.js";const n={title:"Surfaces/Tooltip",component:r,args:{},decorators:[o=>s(t,{children:o()})]},c={},l=["Primary"];export{c as Primary,l as __namedExportsOrder,n as default};
+//# sourceMappingURL=Tooltip.stories-c7c085ac.js.map
