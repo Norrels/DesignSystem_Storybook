@@ -25,9 +25,7 @@ export const TooltipTrigger = styled(Tooltip.Trigger, {
     color: '$white'
 })
 
-export const TooltipPortal = styled(Tooltip.Portal, {
-   
-})
+export const TooltipPortal = styled(Tooltip.Portal, {})
 
 export const TooltipContent = styled(Tooltip.Content, {
     borderRadius: '$xs',
