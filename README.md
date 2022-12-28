@@ -1,6 +1,6 @@
 ![Slide 16_9 - 1](https://user-images.githubusercontent.com/94193637/209689491-d74d8ad5-08d5-4056-89d7-9ec7c1f21061.png)
 
-A ideia principal era desenvolver uma landing page de um café que oferecesse a possibilidade de adicionar os produtos no carrinho
+Um design system é uma forma de documentar componentes que podem ser utilizados em outras aplicações, afim de padroniza-los
 
 ### Conceitos desenvolvidos
 - Publicações e versionamento no NPM 
