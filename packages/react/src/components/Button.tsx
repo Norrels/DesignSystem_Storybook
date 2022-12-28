@@ -1,16 +1,26 @@
-import { styled } from "../styles";
+import { keyframes, styled } from "../styles";
 import { ComponentProps, ElementType } from 'react'
+
+const spin = keyframes({
+  from: {
+      transform: 'rotate(0deg)'
+    },
+    to: {
+      transform: 'rotate(360deg)'
+    }
+})
 
 export const Button = styled('button', {
   all: 'unset',
   borderRadius: '$sm',
+  minWidth: 120,
+  boxSizing: 'border-box',
+  padding: '0 $4',
+
   fontSize: '$sm',
   fontWeight: '$medium',
   fontFamily: '$default',
   textAlign: 'center',
-  minWidth: 120,
-  boxSizing: 'border-box',
-  padding: '0 $4',
 
   display: 'flex',
   alignItems: 'center',
@@ -70,6 +80,24 @@ export const Button = styled('button', {
         '&:disabled': {
           backgroundColor: '$gray600',
         },
+      },
+
+      loading: {
+        color: '$white',
+        background: '$ignite500',
+
+        '&:not(:disabled):hover': {
+          background: '$ignite500',
+          color: '$white'
+        },
+
+        '&:disabled': {
+          backgroundColor: '$gray200',
+        },
+
+        svg: {
+          animation: `${spin} 1s linear infinite`,
+      }
       }
     },
 
@@ -83,8 +111,6 @@ export const Button = styled('button', {
         height: 46,
       }
     }
-
-
   },
 
   defaultVariants: {

@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, Text, Tooltip, TooltipProps } from '@norrels-ignite-ui/react'
+import { Box, Tooltip, TooltipProps } from '@norrels-ignite-ui/react'
 
 export default {
     title: 'Surfaces/Tooltip',

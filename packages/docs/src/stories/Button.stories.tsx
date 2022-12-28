@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { Button, ButtonProps } from '@norrels-ignite-ui/react'
+import { CircleNotch } from "phosphor-react";
 
 export default {
   title: 'Form/Button',
@@ -26,7 +27,7 @@ export default {
     disabled: {
       control: {
         type: 'boolean'
-        
+
       }
     },
     onClick: {
@@ -49,8 +50,18 @@ export const Tertiary: StoryObj<ButtonProps> = {
     variant: 'tertiary',
     children: 'Cancel'
   }
+}
+
+export const Loading: StoryObj<ButtonProps> = {
+  args: {
+    variant: 'loading',
+    children: (
+        <CircleNotch size={32} weight='bold'/>
+    ),
+  },
 
 }
+
 
 export const Small: StoryObj<ButtonProps> = {
   args: {

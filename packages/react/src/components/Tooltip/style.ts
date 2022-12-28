@@ -40,9 +40,7 @@ export const TooltipContent = styled(Tooltip.Content, {
     fontSize: '$1',
     fontWeight: '$medium',
 
-    filter: 'drop-shadow(4px 16px 24px rgba(0, 0, 0, 0.25))'
+    filter: 'drop-shadow(2px 4px 8px rgba(0, 0, 0, 0.25))'
 })
 
-export const ToolTipArrow = styled(Tooltip.Arrow, {
-    
-})
+export const ToolTipArrow = styled(Tooltip.Arrow, {})
